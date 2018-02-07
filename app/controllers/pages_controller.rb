@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def teammember
   end
+def home
+
+end
 end

@@ -13,7 +13,7 @@ h2 {
   margin: 0 auto;
   max-width: 50em;
   line-height: 1.5;
-  padding: 4em 1em;
+  padding: 1em 1em;
 }
 .no-gutters {
   margin-right: 0;
@@ -24,4 +24,12 @@ h2 {
     padding-right: 0;
     padding-left: 0;
   }
+}
+.yellow {
+color: #E6AF2E;
+background-color: #282F44;
+}
+.blue {
+  color: #282F44;
+background-color: #E6AF2E;
 }

@@ -1,21 +1,28 @@
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 35%), url('https://s3.amazonaws.com/StartupStockPhotos/20140808_StartupStockPhotos/57.jpg');">
+  <div class="banner-content">
+    <h1>Startskuddet</h1>
+    <p>Vi dytter snøballer</p>
+    <a class="btn btn-primary btn-lg">Start now</a>
+  </div>
+</div>
+
 <div class="container">
-<h1 class="text-center">Startskuddet</h1>
    <div class="col-sm-6">
-      <div class="text-center action-card">
+      <div class="text-center action-card yellow">
       <h3>Har du en ide?</h3>
       <i class="fas fa-lightbulb fa-10x"></i>
       <br>
       <br>
-      <button type="button" class="btn btn-danger">Send inn her</button>
+      <%= link_to 'Send inn her', idea_path, class: 'btn btn-danger' %>
       </div>
     </div>
     <div class="col-sm-6">
-      <div class="text-center action-card">
+      <div class="text-center action-card yellow">
       <h3>Join team</h3>
       <i class="fas fa-users fa-10x"></i>
       <br>
       <br>
-      <button type="button" class="btn btn-danger">Go for it!</button>
+      <%= link_to 'Kjør da!', teammember_path, class: 'btn btn-danger' %>
       </div>
     </div>
   </div>

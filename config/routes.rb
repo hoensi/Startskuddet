@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get 'idea', to: 'pages#idea'
 
-  get 'teammember', to: 'pages#idea'
+  get 'teammember', to: 'pages#teammember'
 
   root to: 'pages#home'
 
